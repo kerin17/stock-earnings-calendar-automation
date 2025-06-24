@@ -24,7 +24,6 @@ Automatically generate and import stock earnings report dates into Apple Calenda
 |------|-------------|
 | `earnings_calendar.py` | Main automation script (fetches earnings data, creates `.ics`, and triggers import) |
 | `import_earnings_ics.scpt` | AppleScript that opens the calendar file to trigger import |
-| `.gitignore` | Excludes the `.ics` output from version control |
 
 ## ⚙️ How It Works
 
@@ -56,3 +55,5 @@ Set up using `launchd` on macOS to run:
 - Push .ics to Google Calendar
 - Weekly email summaries
 - Visual dashboard of upcoming earnings
+
+
