@@ -1,6 +1,6 @@
 # 📆 Stock Earnings Calendar Automation
 
-Automatically generate and import stock earnings report dates into Apple Calendar on macOS using a Python script and AppleScript.
+To streamline my personal workflow, I built an automated system that fetches upcoming stock earnings report dates and imports them directly into Apple Calendar on macOS. By combining a Python script with AppleScript, this solution helps me stay on top of key earnings events for my tracked stocks without manual searching or calendar entry. It's a convenient, low-maintenance way to maintain visibility on financial events that matter to me.
 
 ## 🔧 Features
 
@@ -33,9 +33,7 @@ Automatically generate and import stock earnings report dates into Apple Calenda
 4. Generates calendar events in `.ics` format
 5. Opens the file using AppleScript to trigger Calendar import
 
-## 📌 Ticker List
-
-Customizable list of tracked stock tickers:
+## 📌 Ticker List [hide]
 
 ## 📅 Calendar Setup
 
@@ -55,5 +53,3 @@ Set up using `launchd` on macOS to run:
 - Push .ics to Google Calendar
 - Weekly email summaries
 - Visual dashboard of upcoming earnings
-
-
