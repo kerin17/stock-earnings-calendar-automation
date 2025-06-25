@@ -1,6 +1,3 @@
-nano ~/Library/LaunchAgents/com.kerin.earningsupdate.plist
-
-
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
@@ -34,6 +31,3 @@ nano ~/Library/LaunchAgents/com.kerin.earningsupdate.plist
     <true/>
 </dict>
 </plist>
-
-
-launchctl load ~/Library/LaunchAgents/com.kerin.earningsupdate.plist
