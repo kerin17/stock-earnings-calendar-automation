@@ -6,8 +6,8 @@ from datetime import datetime, timedelta
 import subprocess
 
 # === Settings ===
-API_KEY = ''  # Replace with Finnhub API key
-tickers = [''] # Enter your interesteds
+API_KEY = ''  # Replace with your Finnhub API key, registration needed
+tickers = [''] # List out your interested stocks
 ics_path = ""
 applescript_path = ""
 
